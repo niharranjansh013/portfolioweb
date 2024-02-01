@@ -20,8 +20,8 @@ export const Navbar = () => {
                     {
                         header.map((obj,ind) => {
                             return (
-                                <div className='text-[25px]'>
-                                    <h1 key={`h1_${ind}`}>{obj.port}<span className='text-cyan-600 '>{obj.folio}</span></h1>
+                                <div className='text-[25px]' key={`h1_${ind}`}>
+                                    <h1 >{obj.port}<span className='text-cyan-600 '>{obj.folio}</span></h1>
                                 </div>
                             )
                         })
